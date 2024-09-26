@@ -1,0 +1,22 @@
+ansible_user: ENC[AES256_GCM,data:lQrrYny6,iv:ZONncLwekhaAGGC8j5AmFx7/L/yZAMiJe9VXNDvGuiI=,tag:mrXhSRa+0Uknbcf03dHUOA==,type:str]
+k3s_token: ENC[AES256_GCM,data:av549wCoCqywQwdPfwI30H9IZPiRfthfsta2E67IeIk61ad8/9yY2QhHg4pyTWAuupKM2lcGisewPM7Cs08ef6no54SPej0wnKhvZPgFKpFunfpaLE9+Bg==,iv:j13FJvvTjq5X20Dj4dbSNorHOspF2uEgxanD4BG76nQ=,tag:Eyd8eK6fPeR4P05EcWvILg==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1cnmyal6raurvk077qqqphm25khz4sqfdm3qdah6jx56n3qk6jyws2w2fxh
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBFZmM0K1VGdVZUY0h3M1Zp
+            bTZYTU5xQmRRdmlxSEJteEYreDBDU2VkVlFZCkp0eXVYWEVzeEs3SWNOVjlXaWRO
+            RXZKYmoxOThJZ2llU0V4UkFpSXR2YzAKLS0tIDluUmhjaUpCeTBxZEFYQVFHOVRX
+            ZHlOTUtVNFI5RlBFQWQ5NzVLSXRqZlUKxthUpOvaybzIvQbOIoSw5aWpY9BNxoqS
+            dCFPNGORk0cV3jC534WX7syyotde6JAcXEA/Y5ery+wBhf4MsYtA/w==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2024-09-26T14:11:42Z"
+    mac: ENC[AES256_GCM,data:oDYU2yBYrahsxwH0u+JaRuw5iNGeLYg10mOlx1QhF8jxenwLylYyZtrwtoBL1KVUE4C+gaq9UPJ6N2jeOWlFhfDuAv4TeXpkn299Xk/zdMblCM26K1PdQ0UG4xmynGljkXJkkMYiSZ+NE0vUT3WFSYmMVNW7ZefAvWfQQoWllQM=,iv:VwejwY+21WRTLclo2TH94FoaVixaWCZW0Umtgsx9GkE=,tag:9f5F0q/9+jsYjt6iwQJPOQ==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.9.0
