@@ -4,10 +4,10 @@ k3s_cluster:
     server:
       hosts:
         192.168.0.101:
-    agent:
-      hosts:
-        192.168.0.102:
-        192.168.0.103:
+    # agent:
+    #   hosts:
+    #     192.168.0.102:
+    #     192.168.0.103:
 
   # Required Vars
   vars:
